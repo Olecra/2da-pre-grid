@@ -3,38 +3,66 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    text-decoration: none;
+    font-family: 'Poppins', sans-serif !important;
+    text-decoration: none !important;
     list-style: none;
 }
-header .container-fluid {
+header .navbar {
     background-color: #0077B6 !important;
-    font-size: 16px !important;
-    border-radius: 30px !important;
-    height: auto !important;
-    marging: 10% 2% !important;
+    border-radius: 10px !important;
 }
- header .logo{
-    display: flex;
-    align-items: center;
+header .nav-link{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 30px;
+}
+header .logo{
+
     font-weight: 800;
     font-size: 42px;
     color: #ffffff;
-    padding: 5%;
+    padding: 2% 5% 2% 2%;
     text-decoration: none;
-    margin: 10% 2%;
 }
-header .navbar{
-    background-color: #0077B6 !important;
-    font-size: 16px !important;
-    height: auto !important;
-    margin: 11% 2% 0% 0% !important;
+h1{
+    font-size: 35px;
+    font-weight: 600;
+     padding: 5% 0% 0% 5%;
+    color: #53525c;
 }
-nav ul li a{
-    padding: 0px 12px !important;
-    color: #FFFFFF !important;
-    font-weight: 600 !important;
+div .card{
+    text-align: center !important;
+    font-weight: 700;
 }
-div .search{
-    padding:  0% 2% 1% 0%!important;
+main .row{
+    display: flex;
+    justify-content: center;
+}
+footer {
+    background-color: #0077B6;
+    margin: 0 auto;
+    padding: 0% 10%;
+    border-radius: 30px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row !important;
+}
+img.icons{
+    max-width: 50px !important;
+    padding: 6px 6px;
+    border-radius: 12px;
+    background-color: #00B4D8;
+}
+a.foot-tags{
+    color: #ffffff !important;
+}
+div .info-container{
+    display: flex;
+    flex-direction: row;
+}
+div .cards{
+    display: flex;
+    flex-direction: row;
 }
